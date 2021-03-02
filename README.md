@@ -3,10 +3,8 @@
 dubbo-provider服务端，dubbo-api 存放公共接口，dubbo-consumer 调用远程服务。
 
 company使用CrudRepository，Query  
-
 CompanyMapper ——> service ——> serviceImpl -> controller  
 customer使用MongoTemplate，没有mapper  
-
 service ——> serviceImpl -> controller
 
 
